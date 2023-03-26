@@ -28,3 +28,21 @@ kit502-group-asm
 └── ...
 ```
 *Please keep .gitignore as it is, for ease of working on different IDEs.*
+
+## Assignment 1 information
+
+There are 2 dummy users created:
+
+* A normal user:
+  * Email: dong@yi.guo
+  * Password: I@mUser1
+
+Logging in with credential above will result in User Console (Trading Page)
+
+* A manager:
+  * Email: dongyi@guo.xyz
+  * Password I@mUser2
+
+Logging in with credential above will result in Manager Console (Master Trading Page)
+
+Tourists (not-logged users) can get market information through "Pricing" page, and search bar will work with it while backend joins.

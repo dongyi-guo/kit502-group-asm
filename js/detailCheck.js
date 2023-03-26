@@ -116,12 +116,18 @@ function loginCheck() {
                     if (dummy_user.email === userMail){
                         if (dummy_user.passwd === userPasswd) {
                             feedback = "Success! Logging you in...";
+                            setTimeout(function(){
+                                window.location.href = "./trading.html";
+                            }, 1000);
                         } else {
                             feedback = "Incorrect Password.";
                         }
                     } else if (dummy_manager.email === userMail){
                         if (dummy_manager.passwd === userPasswd) {
                             feedback = "Success! Logging you in...";
+                            setTimeout(function(){
+                                window.location.href = "./master-trading.html";
+                            }, 1000);
                         } else {
                             feedback = "Incorrect Password.";
                         }
