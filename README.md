@@ -6,10 +6,10 @@ This is the workspace for KIT502 group assignment for group 14.
 
 ```
 kit502-group-asm
-├── components <- where reused html components/pages stay
-│   ├── some-headers.html
-│   ├── some-footers.html
-│   ├── some-modals.html
+├── components <- where reusable html elements stay
+│   ├── some-headers.js
+│   ├── some-footers.js
+│   ├── some-modals.js
 │   └── ...
 ├── css <- where stylesheets stay
 │   ├── some-stylesheet.css
