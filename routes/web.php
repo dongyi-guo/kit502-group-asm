@@ -21,3 +21,4 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/terms-and-conditions', [App\Http\Controllers\GuestController::class, 'TermsAndConditions'])->name('termsandconditions');
+Route::get('/demo', [App\Http\Controllers\DemoController::class, 'Demo'])->name('demo');
